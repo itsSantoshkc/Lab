@@ -1,3 +1,4 @@
+// Write a program in C to simulate Peterson’s Solution
 #include<stdio.h>
 #include<unistd.h>
 #include<pthread.h>

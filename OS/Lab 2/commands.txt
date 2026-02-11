@@ -1,0 +1,174 @@
+lscpu
+Interpretation: Display information about the CPU architecture
+
+lshw
+Interpretation: extract detailed information on the hardware configuration of the machine.
+
+sudo lshw
+Interpretation: extract detailed information on the hardware configuration of the machine.
+
+hwinfo
+Interpretation: hwinfo is used to probe for the hardware present in the system. It can be
+used to generate a system overview log which can be later used for support.
+
+hwinfo --short
+Interpretation: shows only a quick summary of hardware present in the system.
+
+lspci
+Interpretation: displays information about PCI buses in the system and devices connected
+to them.
+
+lsusb
+Interpretation: Displays information about USB buses in the system and the devices connected
+to them. It uses udev's hardware database to associate a full human-readable
+name to the vendor ID and the product ID.
+
+inxi
+Interpretation: Command line system information script for console and IRC
+
+inxi -fx
+Interpretation: Show all CPU flags used, not just the short list
+
+lsblk
+Interpretation:lists information about all available or the specified block devices.
+
+df
+Interpretation: displays the amount of space available on the file system containing each
+file name argument. If no file name is given, the space available on all
+currently mounted file systems is shown.
+
+pydf
+Interpretation: python script that displays the amount of disk space available on the mounted
+filesystems, using different colours for different types of filesystems.
+
+fdisk -l
+Interpretation: List the partition tables for the specified devices
+
+
+free
+Interpretation: Display amount of free and used memory in the system
+
+
+cat /proc/cpuinfo
+Interpretation: read the file /proc/cpuinfo to output the processor’s information like cpufamily,
+model, microcode, flags, address sizes, cache_allignments,etc.cat /proc/cpuinfo
+Interpretation:
+
+cat /proc/meminfo
+Interpretation: reads file /proc/meminfo and output the various information of memory
+segments of the computer system
+
+uname -v
+Interpretation: print the kernel version
+
+
+uname -r
+Interpretation: print the kernel release
+
+
+uname -a
+Interpretation: print all informations like kernel name,network node hostname, kernel
+release and version,machine hardware name, processor type,etc.
+
+factor 1203343
+Interpretation: print the prime factors of the given numbers, either given from command
+line or read from standard inputfactor 1203343
+
+echo ‘3*9’| bc
+Interpretation: echo displays the string passed and ‘|’ symbol is used to redirect the
+output of echo to arbitrary precision calculator language bc to produce the
+product of 3 and 9
+
+echo ‘(6*5)-8’| bc
+Interpretation: calculates the give expression and displays in the terminal
+
+
+id
+Interpretation: print real and effective user and group IDs
+
+lsusb | tee lsusb.txt
+Interpretation: lsusb outputs all the usb devices and ‘|’ symbol redirects the output of
+lsusb into file lsusb.txt
+
+cat lsusb.txt
+Interpretation: reads the file lsusb.txt
+
+shutdown
+Interpretation: schedule the shutdown of the system after one minute
+
+shutdown now
+Interpretation: power-off the machine instantly
+
+shutdown 13:20
+Interpretation: This command shuts down the machine at 13:20
+
+shutdown 10
+Interpretation: schedule the shutdown of the system after ten minutes
+
+shutdown -r +10
+Interpretation: schedule the shutdown of the system after ten minutes
+
+shutdown -c
+Interpretation: Cancel a pending or scheduled shutdown.
+
+ping -w 3 google.com
+Interpretation: send ICMP ECHO_REQUEST to google.com
+
+netstat
+Interpretation: Print network connections, routing tables, interface statistics, masquerade
+connections, and multicast memberships
+
+netstat -r
+Interpretation: Display the kernel routing tables.
+
+
+netstat-p
+Interpretation: Show the PID and name of the program to which each socket belongs. A hyphen
+is shown if the socket belongs to the kernel (e.g. a kernel service, or the
+process has exited but the socket hasn't finished closing yet).
+
+
+sudo tcpdump
+Interpretation: prints out a description of the contents of packets on a network interface
+
+38.host google.com
+Interpretation: performs DNS lookups. It is normally used to convert names to IP addresses
+and vice versa.
+
+39.tracepath achsnepal.edu.np
+Interpretation: traces path to a network host discovering MTU along this path
+
+ifconfig
+Interpretation: displays the status of the currently active interfaces.
+
+route
+Interpretation:show / manipulate the IP routing table
+
+nslookup achsnepal.edu.np
+Interpretation: query Internet domain name servers interactively
+
+whois brainyquote.com
+Interpretation: guess the right server to ask for the specified object. If no guess can be
+made it will connect to whois.networksolutions.com for NIC handles or
+whois.arin.net for IPv4 addresses and network names.
+
+sudo apt-get update
+Interpretation: resynchronize the package index files from their sources.
+
+sudo apt-get upgrade
+Interpretation: install the newest versions of all packages currently installed on the
+system from the sources enumerated in /etc/apt/sources.list
+
+sudo apt-get install sl
+Interpretation: install package sl
+
+sl
+Interpretation: display animations aimed to correct users who accidentally enter sl instead
+of ls
+
+sudo -s
+Interpretation: Run the shell specified by the SHELL environment variable if it is set or
+the shell specified by the invoking user's password database entry.
+
+exit
+Interpretation: exit the current program.

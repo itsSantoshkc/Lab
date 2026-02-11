@@ -1,3 +1,5 @@
+// Make use of pthread.h library to create POSIX threads using a C program. Demonstrate the use of
+// pthread_create to create threads in your program.
 #include<pthread.h>
 #include<stdio.h>
 

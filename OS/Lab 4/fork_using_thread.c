@@ -1,3 +1,4 @@
+// Explore the behavior of fork while using threads.
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>

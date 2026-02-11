@@ -1,3 +1,4 @@
+// Write a program in C to solve the problem of race conditions using a semaphore.
 #include <stdio.h>
 #include <pthread.h>
 #include <time.h>
