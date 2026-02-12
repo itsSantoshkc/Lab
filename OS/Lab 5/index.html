@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simple AJAX App</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+
+<h2>Dynamic Content Loading using HTML, AJAX, PHP & jQuery</h2>
+
+<button id="loadData">Load Posts</button>
+
+<div id="result"></div>
+
+<script>
+$(document).ready(function(){
+
+    $("#loadData").click(function(){
+
+        $.ajax({
+            url: "fetch.php",
+            type: "GET",
+            success: function(data){
+                $("#result").html(data);
+            }
+        });
+
+    });
+
+});
+</script>
+
+</body>
+</html>
