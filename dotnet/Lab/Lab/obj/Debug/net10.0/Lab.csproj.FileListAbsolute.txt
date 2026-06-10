@@ -1,0 +1,14 @@
+/home/santosh/Programming/Uni/dotnet/Lab/Lab/bin/Debug/net10.0/Lab
+/home/santosh/Programming/Uni/dotnet/Lab/Lab/bin/Debug/net10.0/Lab.deps.json
+/home/santosh/Programming/Uni/dotnet/Lab/Lab/bin/Debug/net10.0/Lab.runtimeconfig.json
+/home/santosh/Programming/Uni/dotnet/Lab/Lab/bin/Debug/net10.0/Lab.dll
+/home/santosh/Programming/Uni/dotnet/Lab/Lab/bin/Debug/net10.0/Lab.pdb
+/home/santosh/Programming/Uni/dotnet/Lab/Lab/obj/Debug/net10.0/Lab.GeneratedMSBuildEditorConfig.editorconfig
+/home/santosh/Programming/Uni/dotnet/Lab/Lab/obj/Debug/net10.0/Lab.AssemblyInfoInputs.cache
+/home/santosh/Programming/Uni/dotnet/Lab/Lab/obj/Debug/net10.0/Lab.AssemblyInfo.cs
+/home/santosh/Programming/Uni/dotnet/Lab/Lab/obj/Debug/net10.0/Lab.csproj.CoreCompileInputs.cache
+/home/santosh/Programming/Uni/dotnet/Lab/Lab/obj/Debug/net10.0/Lab.dll
+/home/santosh/Programming/Uni/dotnet/Lab/Lab/obj/Debug/net10.0/refint/Lab.dll
+/home/santosh/Programming/Uni/dotnet/Lab/Lab/obj/Debug/net10.0/Lab.pdb
+/home/santosh/Programming/Uni/dotnet/Lab/Lab/obj/Debug/net10.0/Lab.genruntimeconfig.cache
+/home/santosh/Programming/Uni/dotnet/Lab/Lab/obj/Debug/net10.0/ref/Lab.dll
