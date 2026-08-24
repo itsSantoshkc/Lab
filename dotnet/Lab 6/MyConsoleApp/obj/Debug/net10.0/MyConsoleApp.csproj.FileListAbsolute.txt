@@ -57,3 +57,4 @@
 /home/santosh/Programming/Uni/dotnet/Lab 6/MyConsoleApp/obj/Debug/net10.0/MyConsoleApp.pdb
 /home/santosh/Programming/Uni/dotnet/Lab 6/MyConsoleApp/obj/Debug/net10.0/MyConsoleApp.genruntimeconfig.cache
 /home/santosh/Programming/Uni/dotnet/Lab 6/MyConsoleApp/obj/Debug/net10.0/ref/MyConsoleApp.dll
+/home/santosh/Programming/Uni/dotnet/Lab 6/MyConsoleApp/obj/Debug/net10.0/MyConsoleApp.sourcelink.json

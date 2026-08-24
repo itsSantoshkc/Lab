@@ -1,0 +1,2 @@
+// 10.Which namespace is used for accessing data? Explain method of each key components of ADO.NET. Assume a database name CompanyDB containing Employee table(Eid, Name, Department, Salary).Write a c# program to connect to the database and insert 5 employee records and 
+// display the employee record from CompanyDB database having highest and lowest salary. [1+4+5]

@@ -1,0 +1,77 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/santosh/Programming/Uni/dotnet/Movie/Movie/Movie.csproj": {}
+  },
+  "projects": {
+    "/home/santosh/Programming/Uni/dotnet/Movie/Movie/Movie.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/santosh/Programming/Uni/dotnet/Movie/Movie/Movie.csproj",
+        "projectName": "Movie",
+        "projectPath": "/home/santosh/Programming/Uni/dotnet/Movie/Movie/Movie.csproj",
+        "packagesPath": "/home/santosh/.nuget/packages/",
+        "outputPath": "/home/santosh/Programming/Uni/dotnet/Movie/Movie/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/santosh/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net10.0"
+        ],
+        "sources": {
+          "/usr/lib64/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net10.0": {
+            "targetAlias": "net10.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "10.0.100"
+      },
+      "frameworks": {
+        "net10.0": {
+          "targetAlias": "net10.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[10.0.9, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib64/dotnet/sdk/10.0.109/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
